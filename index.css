@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(2, 24, 4, 0.514);
+}
+.cell {
+  background-color: rgb(136, 77, 77);
+}
+.gameTitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(104, 65, 129);
+}
+
+section {
+  text-align: center;
+}
+.gameRestart {
+  background-color: rgb(61, 74, 129);
+}
+.gameContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: 50px auto;
+}
+.cell {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 0 1px rgb(19, 51, 66);
+  border: 8px solid #333333;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+button {
+  color: rgb(8, 8, 8);
+  display: inline-block;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-decoration: brown;
+}
